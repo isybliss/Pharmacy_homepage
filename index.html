@@ -4,48 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharmacy Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
-        <div class="header_logo">
-            <a href=""><img src="images/drugstoc_logo.svg" alt="logo" style="width: 120px;"></a>
-        </div>
-        <div class="header_right">
-            <div class="header_search">
-                <form action="#">
-                    <div class="search_content">
-                        <input type="text" name="search" placeholder="search">
-                        <div class="search_category">
-                            <select name="Category" id="Cat">
-                                <option value="1">All Categories</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                            </select>
-                        </div>
-                        <button title="search"></button>
-                    </div>
-                </form>
-            </div>
-            <div class="header_options">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Contact us</a></li>
-                    <li><a href="">Cart</a></li>    
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <h2 class="logo">IsyBPx</h2>
+
+                <div class="search">
+                    <input class="srch" type="search" name=" " placeholder="Type to search">
+                    <a href="#"><button class="btn">Search</button></a>
+                </div>
+
+                <ul class="primary_nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-            </div>
+
+                <ul class="secondary_nav">
+                    <li><a class="cta shop-cta" href="#">Shop</a></li>
+                    <li><a class="cta" href="#">Chat the pharmacist</a></li>
+                </ul>
+            </nav>
         </div>
-        
     </header>
     <main>
-        <div class="hero_section"></div>
-        <div class="service_section"></div>
-        <div class="feature_section"></div>
-        <div class="subscribe_section"></div>
+        <section class="hero_section"></section>
+        <section class="feature_section"></section>
+        <section class="service_section"></section>
+        <section class="subscribe_section"></section>
     </main>
     <footer></footer>
 </body>
-</html>

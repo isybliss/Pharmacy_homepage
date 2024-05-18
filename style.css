@@ -20,6 +20,7 @@
 .container{
     width: 90%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 ul{
@@ -32,12 +33,6 @@ a{
 }
 
 header {
-    height: 12vh;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    right: 0;
-    left: 0;
     background-color: var(--light-gray-color);
 }
 
@@ -95,4 +90,65 @@ header {
 
 .shop-cta{
     margin-right: -1.2em;
+}
+
+.hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.hero_heading {
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+    color: #73390a;
+    text-align: left;
+    line-height: 40px;
+}
+
+.hero_subheading{
+    font-size: 17px;
+    text-align: left;
+    margin-top: 20px;
+    color: #644c4c;
+}
+
+.hero_image img {
+    border-radius: 50%;
+}
+
+.feature_section{
+    text-align: center;
+    background-color: #fefafa;
+}
+
+.trusted_brands h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 25px;
+    color: #4d4d4d;
+}
+
+.trusted_brand_images{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.trusted_brand_images img{
+    width: 80px;
+}
+
+.trusted_brands p {
+    font-size: 16px;
+    color: #4d4d4d;
+    margin-top: 20px;
+    margin-bottom: 25px;
+};
+
+.footer_down {
+    display: flex;
 }

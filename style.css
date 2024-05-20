@@ -134,22 +134,25 @@ header {
     border-radius: 50%;
 }
 
-.feature_section{
+.trusted_brands, .top_products{
     text-align: center;
-    background-color: #fefafa;
+    background-color: #f1f0ef80;
+    padding-bottom: 20px;
 }
 
-.trusted_brands h4 {
-    font-size: 17px;
-    font-weight: 500;
+.trusted_brands h4, .top_products h4 {
+    font-size: 18px;
+    font-weight: 600;
     margin: 25px;
     color: #4d4d4d;
 }
 
-.trusted_brand_images{
+.trusted_brand_images, .products_container{
+    margin-top: 50px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 .trusted_brand_images img{
@@ -161,6 +164,44 @@ header {
     color: #4d4d4d;
     margin-top: 20px;
     margin-bottom: 25px;
+}
+
+.top_products{
+    background-color: var(--light-gray-color);
+}
+
+.product_details {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+}
+
+.product_name {
+    font-family: sans-serif;
+    font-style: italic;
+    color: #4d4d4d;
+
+}
+
+.product_price{
+    color: var(--primary-blue);
+}
+
+.buy_cta {
+    border: 1px solid var(--primary-blue);
+    border-radius: 0.5rem;
+    background-color: var(--primary-blue);
+    color: var(--light-gray-color);
+    font-size: 0.8rem;
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    margin-top: 20px;
 }
 
 footer{

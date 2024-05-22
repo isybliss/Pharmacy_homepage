@@ -119,11 +119,11 @@
                     <form action="#">
                         <div>
                             <button class="upload_input" onclick="document.getElementById('getFile').click()">Click here to upload prescription</button>
-                            <input type='file' id="getFile" style="display:none" accept="image/*">
+                            <input type='file' name="presriptionImage" id="getFile" style="display:none" accept="image/*" required>
                         </div>
-                        <input type="email" name="#" id="#" placeholder="Enter your email">
-                        <input type="text" name="#" id="#" placeholder="Enter your address">
-                        <button class="prescription_cta">Send prescription</button>
+                        <input type="email" name="email" id="#" placeholder="Enter your email" required>
+                        <input type="text" name="text" id="#" placeholder="Enter your address" required>
+                        <button class="prescription_cta" type="submit">Send prescription</button>
                     </form>
                 </div>
             </section>
